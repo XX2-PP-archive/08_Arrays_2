@@ -19,8 +19,8 @@ ausgabe(getSentence(["Ich","bin"],"E"));
 ausgabe(getSentence(["Ich","bin"],"#"));
 function getSentence(arr,flag) {
     
-    let gap     = " ";
-    let punct   = getPunct(flag);
+    const gap     = " ";
+    const punct   = getPunct(flag); //.
     let str     = "";
 
     for (let i = 0; i < arr.length; i++) 
